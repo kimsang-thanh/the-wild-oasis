@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navigation() {
   return (
-    <ul className="flex gap-4 text-blue-700">
+    <ul className="flex gap-4 ">
       <li>
         <Link href={"/"}>Home</Link>
       </li>

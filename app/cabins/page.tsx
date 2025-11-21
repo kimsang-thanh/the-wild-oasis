@@ -1,6 +1,9 @@
 import Cabins from "@/components/cabins/Cabins";
-import { Suspense } from "react";
-import Loading from "./loading";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cabins",
+};
 
 export default async function Page() {
   return (
